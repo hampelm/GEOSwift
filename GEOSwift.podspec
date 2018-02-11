@@ -14,7 +14,8 @@ DESC
   s.license      = { :type => "MIT", :file => "LICENSE" }
   s.author       = { "Andrea Cremaschi" => "andreacremaschi@libero.it" }
   s.social_media_url   = "http://twitter.com/andreacremaschi"
-  s.platform     = :ios, "8.0"
+  s.ios.deployment_target = "8.0"
+  s.osx.deployment_target = '10.11'
   s.source       = { :git => "https://github.com/GEOSwift/GEOSwift.git", :tag => s.version }
 
   s.source_files = "GEOSwift/*.{swift,h}"
